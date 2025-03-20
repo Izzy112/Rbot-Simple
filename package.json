@@ -1,0 +1,19 @@
+{
+  "name": "v2.1",
+  "version": "1.0.0",
+  "description": "Bot raid By izzy xdd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Izzy",
+  "license": "ISC",
+  "dependencies": {
+    "@tapjs/stack": "^4.0.0",
+    "axios": "^1.8.1",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "node-fetch": "^2.7.0",
+    "stack": "^0.1.0"
+  }
+}
