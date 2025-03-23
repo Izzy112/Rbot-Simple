@@ -1,1 +1,1 @@
-start cmd /k node dolce-bot.js
+start cmd /k node nix.js
