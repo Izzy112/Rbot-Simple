@@ -1,1 +1,1 @@
-start cmd /k node nix.js
+start cmd /k node v1perium.js
